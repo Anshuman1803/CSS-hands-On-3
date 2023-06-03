@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+}
+
+/* Some Common classes of the webpage */
+.Common-Shadow__Box {
+    box-shadow: 7px 7px 0px purple;
+}
+
+.flex-Box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.Square-Box {
+    width: 230px;
+    height: 230px;
+}
+
+/* Top content of the page */
+
+.headerCenter__Box {
+    width: 400px;
+    height: 160px;
+    position: relative;
+    left: 35%;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.headerCenter__Box p {
+    margin-top: 10px;
+    font-style: italic;
+    color: rgb(192, 12, 12);
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-shadow: 0px 0px 3px #8d1616;
+}
+
+
+
+
+.Common-Box {
+    background-color: white;
+    border: 7px solid red;
+    border-radius: 20px;
+}
+
+
+hr {
+    margin-top: 5px;
+}
+
+
+
+/* Middle content of the page */
+
+.BoxContainer {
+    margin-top: 10px;
+    border: 7px solid green;
+    height: 700px;
+}
+
+.Square-Box p{
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-size: 24px;
+    text-shadow: 0px 0px 3px #8d1616;
+}
+
+.Top__Left__Box {
+    position: relative;
+    left: 2px;
+    flex-direction: column;
+
+}
+
+.Top__Right__Box {
+
+    position: relative;
+    top: -460px;
+    left: 80%;
+}
+
+img {
+
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.Bottom__Left__Box {
+    position: relative;
+    top: 150px;
+    left: 2px;
+    flex-direction: column;
+}
+.Bottom__Left__Box p{
+    text-transform: uppercase;
+}
+
+
+
+.Bottom__Right__Box {
+    position: relative;
+    top: -300px;
+    left: 80%;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.flex-Box form {
+    width: 100%;
+    height: 70%;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:10px;
+}
+
+form label{
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px #8d1616;
+}
+
+.input-box {
+    width: 100%;
+    flex-direction: column;
+    gap: 0;
+}
+.input-box input[type=number]{
+    text-align: center;
+    width: 130px;
+}
+.input-box input[type=submit]{
+    background-color: red;
+    border-radius: 30px;
+    width: 100px;
+}
+
+
+.FixedBox {
+    width: 375px;
+    height: 100px;
+    position: fixed;
+    top: 450px;
+    left: 35%;
+    background-color: greenyellow;
+    z-index: 1;
+    text-align: center;
+    font-style: italic;
+    padding: 18px 0px;
+}
+
+.FixedBox p, span{
+    color: rgb(147, 18, 18);
+    font-size: 18px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    text-shadow: 0px 0px 2px #8d1616;
+    align-self: flex-end;
+}
+.FixedBox span{
+    align-self: flex-start;
+    font-size: 15px;
+}
+
+
+
+/* Bottom content of page */
+.Item__Box__Container {
+    margin: 30px 0px;
+    width: 650px;
+    height: 550px;
+    position: relative;
+    left: 30%;
+    background-color: green;
+    box-shadow: 0px 0px 0px 5px purple;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Item__Box__Container h2 {
+    width: 100%;
+    padding: 10px;
+
+}
+
+.Item__Box__Container .Row {
+    height: 40%;
+    width: 100%;
+}
+
+.Item__Box__Container .Item_Box {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(228, 228, 123);
+    font-style: italic;
+    padding: 2px;
+}
+
+.Item__Box__Container .bottom__Item_box {
+    width: 100%;
+    position: relative;
+    left: 3px;
+}
+
+.Item_Box p {
+    text-transform: uppercase;
+    line-height: 30px;
+    font-size: 14px;
+}
