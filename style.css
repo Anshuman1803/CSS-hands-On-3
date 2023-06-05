@@ -148,33 +148,6 @@ form label{
 }
 
 
-.FixedBox {
-    width: 375px;
-    height: 100px;
-    position: fixed;
-    top: 450px;
-    left: 35%;
-    background-color: greenyellow;
-    z-index: 1;
-    text-align: center;
-    font-style: italic;
-    padding: 18px 0px;
-}
-
-.FixedBox p, span{
-    color: rgb(147, 18, 18);
-    font-size: 18px;
-    font-weight: bolder;
-    text-transform: capitalize;
-    text-shadow: 0px 0px 2px #8d1616;
-    align-self: flex-end;
-}
-.FixedBox span{
-    align-self: flex-start;
-    font-size: 15px;
-}
-
-
 
 /* Bottom content of page */
 .Item__Box__Container {
@@ -219,3 +192,31 @@ form label{
     line-height: 30px;
     font-size: 14px;
 }
+
+
+.FixedBox {
+    width: 375px;
+    height: 100px;
+    position: fixed;
+    top: 475px;
+    left: 35%;
+    background-color: greenyellow;
+    z-index: 1;
+    text-align: center;
+    font-style: italic;
+    padding: 18px 0px;
+}
+
+.FixedBox p, span{
+    color: rgb(147, 18, 18);
+    font-size: 18px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    text-shadow: 0px 0px 2px #8d1616;
+    align-self: flex-end;
+}
+.FixedBox span{
+    align-self: flex-start;
+    font-size: 15px;
+}
+
